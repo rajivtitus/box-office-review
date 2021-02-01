@@ -47,7 +47,7 @@ const Home = () => {
           ) : (
             ""
           ))}
-        <h2>Popular Movies</h2>
+        <h2>Batman Movies</h2>
         <Movies>
           {popular.map((movie) => (
             <Movie

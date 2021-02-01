@@ -62,7 +62,7 @@ const StyledNav = styled(motion.div)`
   input {
     width: 30%;
     padding: 0.5rem 1rem;
-    border: none;
+    border: gray 1px solid;
     box-shadow: 0px 0px 25px rgb(255, 0, 0, 0.25);
     @media (max-width: 850px) {
       width: 45%;

@@ -9,6 +9,9 @@ const GlobalStyle = createGlobalStyle`
     }
 
     html {
+
+        scrollbar-color: darkgray black;
+        scrollbar-width: thin;
     
     @media (min-width: 1450px){
         font-size: 115%;
@@ -37,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
         }
 
         h3 {
-            font-size: 1.35rem;
+            font-size: 1.75rem;
         }
 
         p {

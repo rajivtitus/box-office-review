@@ -1,4 +1,4 @@
-const base_url = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_KEY}`;
+const base_url = `http://www.omdbapi.com/?apikey=2d5a4543`;
 
 //Home page URL
 export const homePageURL = () => `${base_url}&s=batman`;
