@@ -1,4 +1,4 @@
-const base_url = `http://www.omdbapi.com/?apikey=2d5a4543`;
+const base_url = `https://www.omdbapi.com/?apikey=2d5a4543`;
 
 //Home page URL
 export const homePageURL = () => `${base_url}&s=batman`;
