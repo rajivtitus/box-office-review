@@ -22,6 +22,12 @@ const Home = () => {
 
   const { popular, searched } = useSelector((state) => state.movies);
 
+  if (location.pathname === "/") {
+    document.body.style.overflow = "auto";
+  } else {
+    document.body.style.overflow = "hidden";
+  }
+
   return (
     <MoviesList variants={fadeIn} initial="hidden" animate="show">
       <AnimateSharedLayout type="crossfade">

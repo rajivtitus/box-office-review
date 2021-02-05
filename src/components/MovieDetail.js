@@ -19,7 +19,6 @@ const MovieDetail = ({ pathId }) => {
   const exitMovieDetailHandler = (event) => {
     const element = event.target;
     if (element.classList.contains("shadow")) {
-      document.body.style.overflow = "auto";
       history.push("/");
     }
   };
