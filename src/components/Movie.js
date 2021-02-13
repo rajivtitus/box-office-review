@@ -14,7 +14,7 @@ export const Movie = ({ name, year, coverImage, id }) => {
   const dispatch = useDispatch();
 
   const movieDetailHandler = () => {
-    // document.body.style.overflow = "hidden";
+    //
     dispatch(getMovieDetails(id));
   };
 
